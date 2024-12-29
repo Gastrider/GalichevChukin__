@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/GalichevChukin__/static/css/main.98fb0c7e.css",
+    "main.js": "/GalichevChukin__/static/js/main.2d2bc462.js",
+    "static/media/image1.jpg": "/GalichevChukin__/static/media/image1.9f47e5500a520865f6a3.jpg",
+    "static/media/image3.jpg": "/GalichevChukin__/static/media/image3.0d3c23183ecc8741951a.jpg",
+    "static/media/image2.jpg": "/GalichevChukin__/static/media/image2.48ee37cd2ab2a6faf16d.jpg",
+    "static/media/telegram.png": "/GalichevChukin__/static/media/telegram.211473fe0edbfd825d4e.png",
+    "index.html": "/GalichevChukin__/index.html",
+    "main.98fb0c7e.css.map": "/GalichevChukin__/static/css/main.98fb0c7e.css.map",
+    "main.2d2bc462.js.map": "/GalichevChukin__/static/js/main.2d2bc462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98fb0c7e.css",
+    "static/js/main.2d2bc462.js"
+  ]
+}
