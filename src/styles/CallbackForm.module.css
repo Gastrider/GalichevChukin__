@@ -1,0 +1,67 @@
+.callbackForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  .callbackForm h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .callbackForm p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .callbackForm .selectWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .callbackForm select {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .callbackForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .callbackForm button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4b4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .callbackForm button:hover {
+    background-color: #e74343;
+  }
+  
+  .callbackForm p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+  }
+  

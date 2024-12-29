@@ -1,0 +1,28 @@
+.clients {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  span {
+    color: red;
+    font-size: 14px;
+  }
+  

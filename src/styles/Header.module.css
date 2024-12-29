@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logoSection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .companyName {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .navItem {
+    color: #333;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .navItem:hover {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .navItemWithDropdown {
+    position: relative;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+  }
+  
+  .dropdownItem {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+  
+  .dropdownItem:hover {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .dropdownActive .dropdownMenu {
+    display: flex;
+  }
+  

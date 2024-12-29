@@ -1,0 +1,87 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url('../assets/images/heropg.png') no-repeat center/cover;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 400px; /* Чтобы геро-секция была немного выше */
+}
+
+.content {
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h1 span {
+  color: red;
+}
+
+.contact-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.contact-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Центрирование иконки */
+  gap: 10px;
+  padding: 10px 20px;
+  border: 2px solid red;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-buttons a:hover {
+  background-color: red;
+  color: white;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative; /* Для корректного позиционирования кнопок */
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: opacity 0.3s ease-in-out; /* Добавим плавный эффект */
+}
+
+.carousel button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: red;
+  transition: color 0.3s ease;
+  z-index: 10; /* Чтобы кнопки были поверх изображения */
+}
+
+.carousel button:hover {
+  color: white;
+}
+
+.carousel button:focus {
+  outline: none;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
